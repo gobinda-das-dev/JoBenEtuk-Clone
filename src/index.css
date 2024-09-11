@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*::selection {
+   background-color: #5c6ee3;
+   color: #e8eaf5;
+}
+
+body {
+   /* opacity: 0; */
+}
+
+#root {
+   background-color: #282a34;
+   color: #edeffa;
+}
+
+.bold-dark {
+   @apply font-semibold text-sm opacity-50 uppercase block;
+}
+
+.para {
+   @apply font-medium text-sm leading-4;
+}
