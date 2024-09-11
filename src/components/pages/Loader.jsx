@@ -97,7 +97,7 @@ const Loader = () => {
                <circle cx="140" cy="140" r="139.5" className="fill-transparent stroke-[#1a1b22] stroke-2 progress" ref={progressCon} style={{ strokeDashoffset: 880, strokeDasharray: 880 }}></circle>
             </svg>
 
-            <div className="absolute text-7xl font-medium progress-monitor text-[#1a1b22] font-[safiro]" ref={progressMonitor}>0%</div>
+            <div className="absolute text-7xl font-medium progress-monitor text-[#1a1b22] font-safiro" ref={progressMonitor}>0%</div>
          </div>
       </div>
    )

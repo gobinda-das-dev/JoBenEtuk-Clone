@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        garamond :"Cormorant Garamond"
+        garamond :"Cormorant Garamond",
+        safiro: "Safiro"
       },
       colors: {
         'white': '#f1edeb',
