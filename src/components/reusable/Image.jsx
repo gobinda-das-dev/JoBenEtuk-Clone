@@ -9,7 +9,7 @@ function Image({ src, className }) {
 
    return (
       <>
-         <img ref={el} className={"opacity-0 " + className} src={src} />
+         <img ref={el} className={"sm:opacity-0 " + className} src={src} />
          <UseCanvas>
             <ScrollScene track={el}>
                {(props) => (

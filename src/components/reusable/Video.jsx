@@ -9,7 +9,7 @@ function Video({ src, className }) {
       <>
          <video
             ref={el}
-            className={"opacity-0 " + className}
+            className={"sm:opacity-0 " + className}
             src={src}
             crossOrigin="anonymous"
             playsInline
