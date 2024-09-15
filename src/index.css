@@ -24,3 +24,8 @@ body {
 .para {
    @apply font-medium text-sm leading-4;
 }
+
+.sm\:opacity-0 {
+   position: relative;
+   z-index: 2;
+}
