@@ -12,7 +12,11 @@ export default function App() {
     return () => clearTimeout(timer);
   }, []);
 
-  window.addEventListener('resize', () => window.location.reload());
+  useEffect(() => {
+    if(window.innerWidth < 640) return;
+    window.addEventListener('resize', () => window.location.reload());
+  }, [])
+
 
   return (
     <>
