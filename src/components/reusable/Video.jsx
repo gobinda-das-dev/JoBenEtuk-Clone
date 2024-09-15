@@ -12,6 +12,7 @@ function Video({ src, className }) {
             className={"sm:opacity-0 " + className}
             src={src}
             crossOrigin="anonymous"
+            autoPlay
             playsInline
             loop
             muted
